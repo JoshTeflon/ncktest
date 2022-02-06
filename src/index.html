@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li>trips</li>
+                <li>recently viewed</li>
+                <li>bookings</li>
+                <li><img src="../assets/cardi-b-invasion-stream.jpg" alt="" style="width: 2.5rem; height: 2.5rem; border-radius: 100%;" /></li>
+            </ul>
+        </div>
+        <div class="payment">
+            <div class="payment_wrapper">
+                <div class="payment_card">
+                    <h1>Payment Information</h1>
+                    <p style="color: #ccc; margin-bottom: 1rem;">Choose your method of payment.</p>
+                    <img src="../assets/cardpic.png" alt="" style="width: 65%;" />
+                </div>
+                <div class="payment_details">
+                    <div class="payment_logos">
+                        <img src="../assets/visa.png" alt="" style="width: 2rem;" />
+                        <img src="../assets/discover.png" alt="" style="width: 2rem; margin: 0 1rem;" />
+                        <div style="width: 1rem; height: 1rem; background: #efefef; border-radius: 100%; margin: 0 1rem;"></div>
+                        <img src="../assets/mpaypal.png" alt="" style="width: 5rem;" />
+                    </div>
+                    <form>
+                        <div class="form-section">
+                            <div class="form-input">
+                                <label>Credit card number</label>
+                                <input value="4324 5433 9382 1030" />
+                            </div>
+                            <div class="form-input ml">
+                                <label>Expiration date</label>
+                                <input value="03/24" />
+                            </div>
+                        </div>
+                        <div class="form-section">
+                            <div class="form-input">
+                                <label>Security code</label>
+                                <input value="420" />
+                            </div>
+                            <div class="form-input ml">
+                                <label>Postal code</label>
+                                <input value="10119" />
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <input type="radio" style="margin-right: 0.5rem;">
+                            <label>Use this card for next time purchase</label>
+                        </div>
+                        <button>Add card</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="details">
+            <div class="details_wrapper">
+                <div>
+                    <p>Subtotal</p>
+                    <p>Estimated TAX</p>
+                    <p>Promotional code: <span style="color: #ccc;">Z4KXLM9A</span></p>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: flex-end;">
+                    <p>₦2,497.00</p>
+                    <p>₦119.64</p>
+                    <p>₦-60.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="details_wrapper" style="padding: 1rem 2rem 4rem 2rem;">
+            <button class="payment_btn">Complete Payment</button>
+            <p class="total">TOTAL:₦2556.64</p>
+        </div>
+    </div>
+</body>
+</html>
